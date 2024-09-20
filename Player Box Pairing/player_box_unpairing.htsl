@@ -1,0 +1,79 @@
+if and (globalstat box/1 = "%stat.player/id%") {
+    globalstat box/1 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/2 = "%stat.player/id%") {
+    globalstat box/2 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/3 = "%stat.player/id%") {
+    globalstat box/3 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/4 = "%stat.player/id%") {
+    globalstat box/4 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/5 = "%stat.player/id%") {
+    globalstat box/5 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/6 = "%stat.player/id%") {
+    globalstat box/6 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/7 = "%stat.player/id%") {
+    globalstat box/7 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/8 = "%stat.player/id%") {
+    globalstat box/8 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/9 = "%stat.player/id%") {
+    globalstat box/9 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/10 = "%stat.player/id%") {
+    globalstat box/10 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/11 = "%stat.player/id%") {
+    globalstat box/11 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/12 = "%stat.player/id%") {
+    globalstat box/12 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/13 = "%stat.player/id%") {
+    globalstat box/13 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/14 = "%stat.player/id%") {
+    globalstat box/14 set -1
+    stat player/box set -1
+    exit
+}
+if and (globalstat box/15 = "%stat.player/id%") {
+    globalstat box/15 set -1
+    stat player/box set -1
+    exit
+}
+
+
+
+function "Player Box Unpairing 2"

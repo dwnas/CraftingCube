@@ -1,0 +1,20 @@
+stat "streak" inc "1"
+stat "streak/reward" set "20"
+stat "streak/reward" mult "%stat.player/streak%"
+stat "streak/lastday" set "%date.day%"
+stat "streak/lastmonth" set "%date.month%"
+stat "temp/yesterday" set "0"
+stat "temp/lastmonth" set "0"
+
+stat "coins" inc "%stat.player/streak/reward%"
+
+sound "Level Up" 0.7 1 "invokers_location"
+
+chat "&r"
+chat "&6&lDaily&r &6&lReward&e claimed!"
+chat "&l &a❋ &7Streak: &a%stat.player/streak%"
+chat "&l &6✦ &7Reward: &6⛃%stat.player/streak/reward%"
+chat "&7Come back tomorrow for more rewards!"
+chat "&r&r"
+
+displayMenu "Daily Reward (claimed)"

@@ -1,0 +1,10 @@
+random {
+    // Diamond Sword
+            globalstat crafting set 21
+    // Diamond Pickaxe
+            globalstat crafting set 22
+    // Gold Nugget
+            globalstat crafting set 23
+    // Jukebox
+            globalstat crafting set 18
+        }

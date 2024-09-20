@@ -1,0 +1,8 @@
+random {
+    // Minecart with Furnace
+            globalstat crafting set 7
+    // Iron Bar
+            globalstat crafting set 8
+    // Iron Trapdoor
+            globalstat crafting set 9
+        }

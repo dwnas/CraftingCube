@@ -1,0 +1,12 @@
+random {
+    // Bed
+            globalstat crafting set 20
+    // Diamond Sword
+            globalstat crafting set 21
+    // Diamond Pickaxe
+            globalstat crafting set 22
+    // Golden Nugget
+            globalstat crafting set 23
+    // Golden Pickaxe
+            globalstat crafting set 24
+        }

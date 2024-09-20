@@ -1,0 +1,84 @@
+// globalstat box/NUMBER = player id, -1 if not present
+// globalstat box/total = total boxes in use
+
+if and (globalstat box/1 <= 0) {
+    globalstat box/1 set "%stat.player/id%"
+    stat player/box set 1
+    exit
+}
+if and (globalstat box/2 <= 0) {
+    globalstat box/2 set "%stat.player/id%"
+    stat player/box set 2
+    exit
+}
+if and (globalstat box/3 <= 0) {
+    globalstat box/3 set "%stat.player/id%"
+    stat player/box set 3
+    exit
+}
+if and (globalstat box/4 <= 0) {
+    globalstat box/4 set "%stat.player/id%"
+    stat player/box set 4
+    exit
+}
+if and (globalstat box/5 <= 0) {
+    globalstat box/5 set "%stat.player/id%"
+    stat player/box set 5
+    exit
+}
+if and (globalstat box/6 <= 0) {
+    globalstat box/6 set "%stat.player/id%"
+    stat player/box set 6
+    exit
+}
+if and (globalstat box/7 <= 0) {
+    globalstat box/7 set "%stat.player/id%"
+    stat player/box set 7
+    exit
+}
+if and (globalstat box/8 <= 0) {
+    globalstat box/8 set "%stat.player/id%"
+    stat player/box set 8
+    exit
+}
+if and (globalstat box/9 <= 0) {
+    globalstat box/9 set "%stat.player/id%"
+    stat player/box set 9
+    exit
+}
+if and (globalstat box/10 <= 0) {
+    globalstat box/10 set "%stat.player/id%"
+    stat player/box set 10
+    exit
+}
+if and (globalstat box/11 <= 0) {
+    globalstat box/11 set "%stat.player/id%"
+    stat player/box set 11
+    exit
+}
+if and (globalstat box/12 <= 0) {
+    globalstat box/12 set "%stat.player/id%"
+    stat player/box set 12
+    exit
+}
+if and (globalstat box/13 <= 0) {
+    globalstat box/13 set "%stat.player/id%"
+    stat player/box set 13
+    exit
+}
+if and (globalstat box/14 <= 0) {
+    globalstat box/14 set "%stat.player/id%"
+    stat player/box set 14
+    exit
+}
+if and (globalstat box/15 <= 0) {
+    globalstat box/15 set "%stat.player/id%"
+    stat player/box set 15
+    exit
+} else {
+    globalstat box/16 set "%stat.player/id%"
+    stat player/box set 16
+    exit
+}
+
+

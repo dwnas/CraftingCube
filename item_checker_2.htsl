@@ -1,0 +1,9 @@
+if and (globalstat "crafting" = 16, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 17, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 18, hasItem null null null null) {
+    function "Win Handler"
+}

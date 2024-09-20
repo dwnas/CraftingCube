@@ -1,0 +1,5 @@
+if and (globalstat box/16 = "%stat.player/id%") {
+    globalstat box/16 set -1
+    stat player/box set -1
+    exit
+}

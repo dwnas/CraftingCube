@@ -1,0 +1,37 @@
+stat "temp/yesterday" set "%date.day%"
+stat "temp/yesterday" dec "1"
+
+stat "temp/lastmonth" set "%date.month%"
+stat "temp/lastmonth" dec "1"
+
+if and (stat "streak/lastday" = "%date.day%", stat "streak/lastmonth" = "%date.month%") {
+// player has already claimed their daily reward
+// warn them of this with light red text in chat and an anvil landing sound
+    chat "&cYou have already claimed your daily reward today!"
+    sound "Zombie Metal" 0.7 1.5 "invokers_location"
+    exit
+}
+
+// check if the player has never claimed a daily reward before
+if and (stat "streak/lastday" = 0, "streak/lastmonth" = 0) {
+    function "Daily Reward Giver"
+    exit
+}
+
+// check if the player has claimed a daily reward yesterday
+if and (stat "temp/yesterday" = "%stat.player/streak/lastday%", stat "streak/lastmonth" = "%date.month%") {
+    function "Daily Reward Giver"
+    exit
+}
+
+// check if the player has claimed a reward  at the end of last month
+if and (stat "streak/lastmonth" = "%stat.player/temp/lastmonth%", stat "streak/lastday" > 27, placeholder "%date.day%" = 1) {
+    function "Daily Reward Giver"
+    exit
+} else {
+    stat "streak" set "0"
+    function "Daily Reward Giver"
+    chat "&cWhoops! Your daily streak has reset!"
+    chat "&cMake sure to claim your reward every day!"
+    exit
+}

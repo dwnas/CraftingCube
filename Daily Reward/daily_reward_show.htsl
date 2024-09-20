@@ -1,0 +1,5 @@
+if and (stat "streak/lastday" = "%date.day%", stat "streak/lastmonth" = "%date.month%") {
+    displayMenu "Daily Reward (claimed)"        
+} else {
+    displayMenu "daily reward (unclaimed)"
+}

@@ -1,0 +1,16 @@
+random {
+    // Mossy Stone
+            globalstat crafting set 13
+    // Glistering Melon
+            globalstat crafting set 14
+    // Fishing Rod
+            globalstat crafting set 3 
+    // Coarse Dirt
+            globalstat crafting set 15
+    // Flint and Steel
+            globalstat crafting set 16
+    // Bread
+            globalstat crafting set 17
+    // Jukebox
+            globalstat crafting set 18
+        }

@@ -1,0 +1,110 @@
+// from where the sign is on top of the cube
+// nm corner
+// 1: -87.5 86 -96.5
+// 2: -53.5 86 -96.5
+// 3: -19.5 86 -96.5
+// 4: 14.5 86 -96.5
+// 5: 34.5 86 -62.5
+// 6: 34.5 86 -28.5
+// 7: 34.5 86 5.5
+// 8: 34.5 86 39.5
+// 9: 14.5 86 73.5
+// 10: -19.5 86 73.5
+// 11: -53.5 86 73.5
+// 12: -87.5 86 73.5
+// 13: -107.5 86 39.5
+// 14: -107.5 86 5.5
+// 15: -107.5 86 -28.5
+// 16: -107.5 86 -62.5
+
+// Relative teleporting coordinates
+// Fortress: 2 -8 4
+// Taiga: 6 -5 9
+// Mineshaft: 8 -3 6
+// Castle: 10 -13 7
+// Apple Tree: 6 -10 3
+// Temple: 8 -10 2
+// Blockatarium: 7 -13 5
+
+// teleport players ontop of the cube first
+// then teleport them to the relative coordinates, in the other file
+
+if and (stat player/box = 1) {
+    tp "custom_coordinates" "-87.5 86 -96.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 2) {
+    tp "custom_coordinates" "-53.5 86 -96.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 3) {
+    tp "custom_coordinates" "-19.5 86 -96.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 4) {
+    tp "custom_coordinates" "14.5 86 -96.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 5) {
+    tp "custom_coordinates" "34.5 86 -62.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 6) {
+    tp "custom_coordinates" "34.5 86 -28.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 7) {
+    tp "custom_coordinates" "34.5 86 5.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 8) {
+    tp "custom_coordinates" "34.5 86 39.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 9) {
+    tp "custom_coordinates" "14.5 86 73.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 10) {
+    tp "custom_coordinates" "-19.5 86 73.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 11) {
+    tp "custom_coordinates" "-53.5 86 73.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 12) {
+    tp "custom_coordinates" "-87.5 86 73.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 13) {
+    tp "custom_coordinates" "-107.5 86 39.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 14) {
+    tp "custom_coordinates" "-107.5 86 5.5"
+    function "Teleport Into Cubes 2"
+    exit
+}
+if and (stat player/box = 15) {
+    tp "custom_coordinates" "-107.5 86 -28.5"
+    function "Teleport Into Cubes 2"
+    exit
+} else {
+    tp "custom_coordinates" "-107.5 86 -62.5"
+    function "Teleport Into Cubes 2"
+    exit
+}

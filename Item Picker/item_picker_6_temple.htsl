@@ -1,0 +1,22 @@
+random {
+    // Rail
+            globalstat crafting set 25
+    // Hopper
+            globalstat crafting set 26
+    // Hopper Minecart
+            globalstat crafting set 27
+    // Minecart
+            globalstat crafting set 28
+    // Piston
+            globalstat crafting set 29
+    // Iron Door
+            globalstat crafting set 30
+    // Iron Trapdoor
+            globalstat crafting set 9
+    // Weighted Plate (Heavy)
+            globalstat crafting set 31
+    // Anvil
+            globalstat crafting set 32
+    // Polished Diorite
+            globalstat crafting set 33
+        }

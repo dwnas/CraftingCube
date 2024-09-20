@@ -1,0 +1,51 @@
+// Fortress: 1
+// Taiga: 2
+// Mineshaft: 3
+// Castle: 4
+// Apple Tree: 5
+// Temple: 6
+// Blockatarium: 7
+
+//NOTE - There CANNOT be more than 10 possible random items as housing does not allow for this
+
+// Fortress craftables
+
+if and (globalstat chosenmap = 1) {
+        function "Item Picker: Fortress"
+}
+
+
+// Taiga craftables
+if and (globalstat chosenmap = 2) {
+        function "Item Picker: Taiga"
+}
+
+
+// Mineshaft craftables
+if and (globalstat chosenmap = 3) {
+        function "Item Picker: Mineshaft"
+}
+
+
+// Castle craftables
+if and (globalstat chosenmap = 4) {
+        function "Item Picker: Castle"
+}
+
+
+// Apple Tree craftables
+if and (globalstat chosenmap = 5) {
+        function "Item Picker: Apple Tree"
+}
+
+
+// Temple craftables
+if and (globalstat chosenmap = 6) {
+        function "Item Picker: Temple"
+}
+
+
+// Blockatarium craftables
+if and (globalstat chosenmap = 7) {
+        function "Item Picker: Blockatarium"
+}

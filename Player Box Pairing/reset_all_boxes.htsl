@@ -1,0 +1,20 @@
+globalstat box/1 set -1
+globalstat box/2 set -1
+globalstat box/3 set -1
+globalstat box/4 set -1
+globalstat box/5 set -1
+globalstat box/6 set -1
+globalstat box/7 set -1
+globalstat box/8 set -1
+globalstat box/9 set -1
+globalstat box/10 set -1
+if and () {
+    globalstat box/11 set -1
+    globalstat box/12 set -1
+    globalstat box/13 set -1
+    globalstat box/14 set -1
+    globalstat box/15 set -1
+    globalstat box/16 set -1
+}
+
+

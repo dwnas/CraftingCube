@@ -1,0 +1,18 @@
+// Message ID 1: CREATE_BOXES
+// Creates boxes a certain amount of times, with a certain map
+if and (globalstat "botmessage" = 1, stat "bot" = 1) {
+    chat "[BOT] CREATE_BOXES %stat.global/box/total% %stat.global/chosenmap%"
+}
+
+// Message ID 2: RESET_BOXES
+// Resets a certain amount of boxes
+if and (globalstat "botmessage" = 2, stat "bot" = 1) {
+    chat "[BOT] RESET_BOXES %stat.global/box/total%"
+}
+
+// Message ID 3: RESET_ALL_BOXES
+// Resets all boxes
+if and (globalstat "botmessage" = 3, stat "bot" = 1) {
+    chat "[BOT] RESET_ALL_BOXES"
+}
+

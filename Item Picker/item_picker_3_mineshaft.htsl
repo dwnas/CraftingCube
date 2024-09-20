@@ -1,0 +1,14 @@
+random {
+    // Iron Boots
+            globalstat crafting set 1
+    // Iron Leggings
+            globalstat crafting set 2
+    // Fishing Rod
+            globalstat crafting set 3
+    // Red Wool
+            globalstat crafting set 5
+    // Yellow Wool
+            globalstat crafting set 6
+    // Redstone Repeater
+            globalstat crafting set 4
+        }

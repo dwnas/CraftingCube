@@ -1,0 +1,38 @@
+// Relative teleporting coordinates
+// Fortress: 2 -8 4
+// Taiga: 6 -5 9
+// Mineshaft: 8 -3 6
+// Castle: 10 -13 7
+// Apple Tree: 6 -10 3
+// Temple: 8 -10 2
+// Blockatarium: 7 -13 5
+
+// now teleport relative coordinates based on what map was chosen
+if and (globalstat chosenmap = 1) {
+    tp "custom_coordinates" "~2 ~-8 ~4"
+    exit
+}
+if and (globalstat chosenmap = 2) {
+    tp "custom_coordinates" "~6 ~-5 ~9"
+    exit
+}
+if and (globalstat chosenmap = 3) {
+    tp "custom_coordinates" "~8 ~-3 ~6"
+    exit
+}
+if and (globalstat chosenmap = 4) {
+    tp "custom_coordinates" "~10 ~-13 ~7"
+    exit
+}
+if and (globalstat chosenmap = 5) {
+    tp "custom_coordinates" "~6 ~-10 ~3"
+    exit
+}
+if and (globalstat chosenmap = 6) {
+    tp "custom_coordinates" "~8 ~-10 ~2"
+    exit
+}
+if and (globalstat chosenmap = 7) {
+    tp "custom_coordinates" "~7 ~-13 ~5"
+    exit
+}

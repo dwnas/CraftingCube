@@ -1,0 +1,12 @@
+random {
+    // Redstone Lamp
+            globalstat crafting set 10
+    // Glowstone        
+            globalstat crafting set 12
+    // Clock        
+            globalstat crafting set 11 
+    // Redstone Repeater        
+            globalstat crafting set 4
+    // Redstone Comparator        
+            globalstat crafting set 19
+        }

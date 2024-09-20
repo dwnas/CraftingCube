@@ -1,0 +1,65 @@
+// Iron Boots: 1
+// Iron Leggings: 2
+// Fishing Rod: 3
+// Redstone Repeater: 4
+// Red Wool: 5
+// Yellow Wool: 6
+// Minecart Furnace: 7
+// Iron Bar: 8
+// Iron Trapdoor: 9
+// Redstone Lamp: 10
+// Clock: 11
+// Glowstone: 12
+// Mossy Stone: 13
+// Glistering Melon: 14
+// Coarse Dirt: 15
+// Flint and Steel: 16
+// Bread: 17
+// Jukebox: 18
+
+if and (globalstat "crafting" = 1, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 2, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 3, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 4, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 5, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 6, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 7, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 8, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 9, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 10, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 11, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 12, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 13, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 14, hasItem null null null null) {
+    function "Win Handler"
+}
+if and (globalstat "crafting" = 15, hasItem null null null null) {
+    function "Win Handler"
+}
+function "Item Checker 2"
